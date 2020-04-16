@@ -9,6 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <Todo />
+      <p>EC2 Instance $(hostname -f)</p>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
