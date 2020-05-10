@@ -6,4 +6,3 @@ ssh -i ~/.ssh/key.pem ubuntu@52.89.211.197 '
     sudo npm run build
     sudo mv build/* /var/www/html
 '
-exit
