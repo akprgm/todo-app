@@ -4,7 +4,6 @@ import './index.css';
 import Todo from './components/Todo';
 import { Provider } from 'react-redux';
 import { store } from './store';
-lol
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
